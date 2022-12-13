@@ -14,6 +14,7 @@ body {
   justify-content: center;
   background: radial-gradient(rgba(0, 0, 0, 0.815), rgb(0, 0, 0)), url('../image/background.JPG');
   background-size: cover;
+  flex-direction: column;
 }
 
 main {
@@ -30,7 +31,7 @@ main {
 }
 
 .num1 {
-  width: 175px;
+  width: 43%;
 }
 
 .lists {
