@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background: radial-gradient(rgba(0, 0, 0, 0.815), rgb(0, 0, 0)), url('../image/background.JPG');
+  background: radial-gradient(rgba(77, 77, 77, 0.815), rgb(0, 0, 0)), url('../image/background.JPG');
   background-size: cover;
   flex-direction: column;
 }
