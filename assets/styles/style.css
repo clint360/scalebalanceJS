@@ -59,6 +59,7 @@ button {
   border-radius: 15px;
   color: rgba(255, 208, 0, 0.89);
   background: rgba(89, 68, 117, 0.171);
+  border: 2px solid rgba(255, 208, 0, 0.89);
 }
 
 #displayresult {
