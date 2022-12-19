@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 105%;
+  font-family: system-ui, -apple-system;
+}
+
+body {
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: radial-gradient(rgba(77, 77, 77, 0.815), rgb(0, 0, 0)), url('../image/background.JPG');
+  background-size: cover;
+  flex-direction: column;
+}
+
+main {
+  margin: auto;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.575);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.num1 {
+  width: 43%;
+}
+
+.lists {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+input {
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  border: 2PX solid black;
+  background: rgba(114, 114, 114, 0.274);
+}
+
+button:hover {
+  background: rgba(255, 208, 0, 0.89);
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 5px;
+  border-radius: 15px;
+  color: rgba(255, 208, 0, 0.89);
+  background: rgba(89, 68, 117, 0.171);
+  border: 2px solid rgba(255, 208, 0, 0.89);
+}
+
+#displayresult {
+  border-radius: 5px;
+  margin: auto;
+  width: 95%;
+  background: #000;
+  height: 60px;
+  color: white;
+  padding: 5px;
+}
